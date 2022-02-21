@@ -39,9 +39,10 @@ export const webProjects = [
     p: `This is an example of product page, let's not think about the fact
           that the product and the company already exist and I have nothing
           to do with them.`,
-    href: "./product%20landing%20page",
+    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/product%20landing%20page",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/product%20landing%20page.PNG",
     alt: " page",
+    logos: ["html", "css", "javascript", "github"],
   },
   {
     id: "form",
@@ -53,20 +54,22 @@ export const webProjects = [
           interface in a form was some old grey-looking Windows form from
           the early 2000's.`,
 
-    href: "./survey%20form",
+    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/survey%20form",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/survey%20form.PNG",
     alt: "page",
+    logos: ["html", "css", "javascript", "github"],
   },
   {
     id: "article",
     h3: `The article`,
-    p: `Sometimes I have problems falling asleep, this is the way that I
-          chose to deal with that. Writing whatever keeps me up at night.`,
+    p: `Sometimes I Take a long time falling asleep, this is the way that I
+          chose to deal with that. Writing whatever keept me up at night.`,
 
-    href: "./technical%20documentation%20page",
+    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/technical%20documentation%20page",
 
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/article.PNG",
     alt: " page",
+    logos: ["html", "css", "javascript", "github"],
   },
 
   {
@@ -75,19 +78,21 @@ export const webProjects = [
     p: `It's not really a tribute, I say some facts that do not leave his
           image pristine to say the least. I also say that he was a product
           of his time, make of this what you will.`,
-    href: "./tribute%20to%20jc",
+    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/tribute%20to%20jc",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/tribute.PNG",
     alt: "page",
   },
 ];
 
 export const logosUrls = {
+  html: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/html.svg",
+  css: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/css.svg",
+  javascript:
+    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/javascript-js.svg",
   arduino:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/arduino.svg",
   bootstrap:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/bootstrap.svg",
-  javascript:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/javascript-js.svg",
   mssql:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/microsoft-sq-server.svg",
   nodejs:

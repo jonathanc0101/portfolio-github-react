@@ -7,9 +7,12 @@ export default function ProjectList({ projects, id }) {
       {projects.map((project, index) => {
         return (
           <section key={index} className="project-tile" id={project.id}>
-            <Logos logos={project.logos}></Logos>
-
-            <h3>{project.h3}</h3>
+            <h3 className="project-title-container">
+              {project.h3}
+              <span className="logos-span">
+                <Logos logos={project.logos} />
+              </span>
+            </h3>
             <p>{project.p}</p>
 
             <a href={project.href} target="_blank" rel="noopener noreferrer">

@@ -42,7 +42,7 @@ export const webProjects = [
     href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/product%20landing%20page",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/product%20landing%20page.PNG",
     alt: " page",
-    logos: ["html", "css", "javascript", "github"],
+    logos: ["javascript", "html", "css", "github"],
   },
   {
     id: "form",
@@ -57,7 +57,7 @@ export const webProjects = [
     href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/survey%20form",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/survey%20form.PNG",
     alt: "page",
-    logos: ["html", "css", "javascript", "github"],
+    logos: ["javascript", "html", "css", "github"],
   },
   {
     id: "article",
@@ -69,7 +69,7 @@ export const webProjects = [
 
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/article.PNG",
     alt: " page",
-    logos: ["html", "css", "javascript", "github"],
+    logos: ["javascript", "html", "css", "github"],
   },
 
   {
@@ -81,6 +81,16 @@ export const webProjects = [
     href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/tribute%20to%20jc",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/tribute.PNG",
     alt: "page",
+    logos: ["javascript", "html", "css", "github"],
+  },
+  {
+    id: "markdown-previewer",
+    h3: `A Simple MarkDown Previewer`,
+    p: `Click on it and see, I myself don't really know a lot of Markdown.`,
+    href: "",
+    src: "",
+    alt: "page",
+    logos: ["react", "javascript", "redux", "bootstrap"],
   },
 ];
 
@@ -94,7 +104,7 @@ export const logosUrls = {
   bootstrap:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/bootstrap.svg",
   mssql:
-    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/microsoft-sq-server.svg",
+    "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/microsoft-sql-server.svg",
   nodejs:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/nodejs.svg",
   python:

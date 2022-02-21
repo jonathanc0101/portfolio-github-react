@@ -251,8 +251,9 @@ article > * {
 
 .project-tile h3 {
   padding: 2%;
-
   background: var(--darker-contrast-color);
+
+  font-size: xx-large;
 }
 
 img {
@@ -304,3 +305,41 @@ body {
 }
 
 /* accesibility */
+
+.project-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos > * {
+  background-color: var(--support-color-light);
+
+  display: block;
+
+  height: 40px;
+  max-height: 100%;
+
+  width: 40x;
+
+  padding: 10px;
+
+  object-fit: contain;
+
+  border-radius: 15px;
+}
+
+.logos-span {
+  padding-left: 3%;
+  padding-right: 3%;
+
+  border-radius: 30px;
+}

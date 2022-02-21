@@ -7,5 +7,11 @@ export default function Logos({ logos }) {
     return null;
   }
 
-  return <div>Logos</div>;
+  return (
+    <div className="logos">
+      {logos.map((logo, index) => {
+        return <img key={index} alt={logo} src={logosUrls[logo]} />;
+      })}
+    </div>
+  );
 }

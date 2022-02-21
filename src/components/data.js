@@ -39,7 +39,7 @@ export const webProjects = [
     p: `This is an example of product page, let's not think about the fact
           that the product and the company already exist and I have nothing
           to do with them.`,
-    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/product%20landing%20page",
+    href: "https://jonathanc0101.github.io/product%20landing%20page/",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/product%20landing%20page.PNG",
     alt: " page",
     logos: ["javascript", "html", "css", "github"],
@@ -54,7 +54,7 @@ export const webProjects = [
           interface in a form was some old grey-looking Windows form from
           the early 2000's.`,
 
-    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/survey%20form",
+    href: "https://jonathanc0101.github.io/survey%20form/",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/survey%20form.PNG",
     alt: "page",
     logos: ["javascript", "html", "css", "github"],
@@ -65,7 +65,7 @@ export const webProjects = [
     p: `Sometimes I Take a long time falling asleep, this is the way that I
           chose to deal with that. Writing whatever keept me up at night.`,
 
-    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/technical%20documentation%20page",
+    href: "https://jonathanc0101.github.io/technical%20documentation%20page/",
 
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/article.PNG",
     alt: " page",
@@ -78,7 +78,7 @@ export const webProjects = [
     p: `It's not really a tribute, I say some facts that do not leave his
           image pristine to say the least. I also say that he was a product
           of his time, make of this what you will.`,
-    href: "https://github.com/jonathanc0101/portfolio-github-react/tree/master/pages/tribute%20to%20jc",
+    href: "https://jonathanc0101.github.io/tribute%20to%20jc/",
     src: "https://raw.githubusercontent.com/jonathanc0101/Freecodecamp-projects/master/1st%20course/images/tribute.PNG",
     alt: "page",
     logos: ["javascript", "html", "css", "github"],
@@ -88,16 +88,16 @@ export const webProjects = [
     h3: `A Simple MarkDown Previewer`,
     p: `Click on it and see, I myself don't really know a lot of Markdown.`,
     href: "https://jonathanc0101.github.io/markdown-previewer/",
-    src: "https://github.com/jonathanc0101/markdown-previewer/blob/master/sample.PNG",
+    src: "//raw.githubusercontent.com/jonathanc0101/markdown-previewer/master/sample.png",
     alt: "page",
-    logos: ["react", "javascript", "redux", "bootstrap"],
+    logos: ["react", "javascript", "redux"],
   },
   {
     id: "random-quote-machine",
     h3: `A Random Quote Machine`,
     p: `Used some transitions here.`,
     href: "https://jonathanc0101.github.io/random-quote-machine/",
-    src: "https://github.com/jonathanc0101/random-quote-machine/blob/master/sample.PNG",
+    src: "https://raw.githubusercontent.com/jonathanc0101/random-quote-machine/master/sample.PNG",
     alt: "page",
     logos: ["react", "javascript", "redux", "bootstrap"],
   },
@@ -108,6 +108,7 @@ export const logosUrls = {
   css: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/css.svg",
   javascript:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/javascript-js.svg",
+  p5js: "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/p5js.svg",
   arduino:
     "https://raw.githubusercontent.com/jonathanc0101/portfolio-github-react/master/logos/arduino.svg",
   bootstrap:
